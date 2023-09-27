@@ -1,0 +1,38 @@
+#header{
+    background-color: aqua;
+    padding-top: 0%;
+    padding: 10px;
+    height: 70px;
+}
+#text-header{
+    margin: 10px;
+    
+}
+#text-h2{
+    text-align: center;
+}
+#partOfText{
+    padding: 10px;
+}
+#item-chicken{
+    border: 3px;
+    border-style: solid;
+    margin: 10px
+}
+#text-chicken{
+    border: 3px;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    ;
+}
+#navbarToggleExternalContent{
+    float: right;
+}
+#nav-loc{
+    float: right;
+}
+
+
+
+/*mobile navigation menu
