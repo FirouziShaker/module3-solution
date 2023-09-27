@@ -1,13 +1,37 @@
-#header{
-    background-color: aqua;
-    padding-top: 0%;
-    padding: 10px;
-    height: 70px;
-}
-#text-header{
-    margin: 10px;
-    
-}
+ 
+  /** HEADER **/
+  #header-nav {
+    background-color: #989794;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #cee13f;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.5;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }
+      
 #text-h2{
     text-align: center;
 }
@@ -32,7 +56,31 @@
 #nav-loc{
     float: right;
 }
+.bg{
+   background-color: aqua; 
+}
 
 
 
-/*mobile navigation menu
+
+
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #000000;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+ 
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #ffffff;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
