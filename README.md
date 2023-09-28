@@ -1,4 +1,6 @@
 # module3-solution
+You can see the result here! 
+https://firouzishaker.github.io/module3-solution/
 
 Coursera course: HTML, CSS, and Javascript for Web Developers
 
